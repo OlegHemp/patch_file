@@ -1,0 +1,5 @@
+colorama==0.4.5
+numpy==1.23.1
+Pillow==9.2.0
+six==1.16.0
+wxPython==4.2.0
