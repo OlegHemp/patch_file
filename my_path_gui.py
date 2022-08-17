@@ -26,7 +26,10 @@ class MyFrame(wx.Frame):
         self.Close()
 
     def OnAbout(self, e):
-        dlg = wx.MessageDialog(self, "This is a mini editor keeping your text", "About pyNote", wx.OK)
+        dlg = wx.MessageDialog(self,
+                               "Программа создана, для копирования файлов в формате quiz.",
+                               "О программе my_path_gui",
+                               wx.OK)
         dlg.ShowModal()
 
 app = wx.App()
